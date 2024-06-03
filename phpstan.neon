@@ -1,0 +1,29 @@
+parameters:
+		level: 8
+		treatPhpDocTypesAsCertain: false
+		inferPrivatePropertyTypeFromConstructor: true
+		checkAlwaysTrueCheckTypeFunctionCall: true
+		checkAlwaysTrueInstanceof: true
+		checkAlwaysTrueStrictComparison: true
+		checkExplicitMixedMissingReturn: true
+		checkFunctionNameCase: true
+		checkInternalClassCaseSensitivity: true
+		checkMissingIterableValueType: true
+		checkTooWideReturnTypesInProtectedAndPublicMethods: true
+		polluteScopeWithAlwaysIterableForeach: false
+		polluteScopeWithLoopInitialAssignments: false
+		reportAlwaysTrueInLastCondition: true
+		reportStaticMethodSignatures: true
+		reportWrongPhpDocTypeInVarTag: true
+		bootstrapFiles:
+			- phpstan/constants.php
+		paths:
+			- configur.php
+			- activation.php
+			- deactivation.php
+			- src/
+		excludePaths:
+			analyse:
+				- vendor-prefixed/
+			analyseAndScan:
+				- ../wp-graphql/tests

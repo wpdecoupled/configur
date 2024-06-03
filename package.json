@@ -1,0 +1,17 @@
+{
+	"name": "configur",
+	"version": "0.0.1",
+	"description": "Extend and configure WordPress for decoupled use.",
+	"main": "index.js",
+	"directories": {
+		"test": "tests"
+	},
+	"scripts": {
+		"dev": "wp-now start"
+	},
+	"author": "WPDecoupled Development",
+	"license": "GPL-3.0",
+	"devDependencies": {
+		"@wp-now/wp-now": "^0.1.72"
+	}
+}

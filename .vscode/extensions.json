@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "editorconfig.editorconfig",
+        "dudemelo.php-essentials",
+        "obliviousharmony.vscode-php-codesniffer"
+    ]
+}
